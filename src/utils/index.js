@@ -130,7 +130,6 @@ export default function url_slug(s, opt) {
 }
 
 export function sortMinToMax (a,b) {
-	console.log(a, b)
 	if(a.price === b.price) return 0
 	if(a.price === null && b.price > 0) return -1
 	return a.price - b.price

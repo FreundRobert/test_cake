@@ -101,7 +101,7 @@ class EventPage extends React.Component {
       <div className="column">
         <div>
           <img
-            src={`https://picsum.photos/600?random&t=${Date.now()}`}
+            src={image || `https://picsum.photos/600?random&t=${Date.now()}`}
             alt="image not found"
             className="event-img"
           />

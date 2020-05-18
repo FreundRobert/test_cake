@@ -7,7 +7,7 @@ const EventCard = ({ currentEvent, inFavorites, toggleFavorites }) => {
     <div className="shadow card-wrapper">
       <div className="card-content">
         <img
-          src={`https://picsum.photos/600?random&t=${Date.now()}`}
+          src={currentEvent.image || `https://picsum.photos/600?random&t=${Date.now()}`}
           alt="image not found"
           className="card-image"
         />

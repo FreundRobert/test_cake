@@ -8,6 +8,9 @@
   min-width: 200px;
   height: 200px;
   margin: 10px;
+  object-fit: contain;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
 }
 .price {
   width: 200px;

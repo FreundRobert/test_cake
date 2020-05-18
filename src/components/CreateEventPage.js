@@ -52,6 +52,7 @@ class CreateEventPage extends React.Component {
     event.preventDefault();
     const payload = Object.assign({}, this.state);
     this.props.addEvent(payload);
+    this.props.history.push(`events/${this.state.slug}`)
   };
 
   render() {

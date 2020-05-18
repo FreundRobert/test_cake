@@ -20,7 +20,6 @@ const mapStateToProps = (state, ownProps) => {
 };
 const mapDispatchToProps = (dispatch, ownProps) => ({
   sort: (toMin) => {
-    console.log(ownProps)
     toMin ? dispatch(sortMaxToMin()) : dispatch(sortMinToMax());
   },
   toggleFavorites: (payload) => dispatch(toggleFavorites(payload)),
